@@ -1,4 +1,4 @@
-'#!/bin/bash
+#!/bin/bash
 #This File should always be included, its the one that makes PUID and GUID Work.
 #
 
