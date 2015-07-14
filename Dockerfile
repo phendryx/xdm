@@ -6,11 +6,9 @@ ENV TERM screen
 
 
 #Applying stuff
-RUN apt-get update -q && \
-##DO STUFF HERE 
-## END EACH LINE WITH && \
-## EXEPT THE LINE BELOW
-apt-get clean && rm -rf /var/lib/apt/lists/* /var/tmp/*
+RUN apt-get update -q
+RUN apt-get -yq install python git 
+RUN apt-get clean && rm -rf /var/lib/apt/lists/* /var/tmp/*
 
 
 #Adding Custom files
