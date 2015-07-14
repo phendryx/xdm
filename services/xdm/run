@@ -1,0 +1,2 @@
+#!/bin/bash
+exec /sbin/setuser abc "/usr/bin/python /var/XDM/XDM.py -b /config/data -n" 
