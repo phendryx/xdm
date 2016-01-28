@@ -13,3 +13,6 @@ User uid:    $(id -u abc)
 User gid:    $(id -g abc)
 -----------------------------------
 "
+
+mkdir /home/abc
+chown abc:abc /home/abc
